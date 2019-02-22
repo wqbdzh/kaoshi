@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/a.css">
+
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="header">
+                <div class="h-l">
+                    <span></span>
+                    <p>必抢清单</p>
+                </div>
+                <div class="h-r"><a href="#">更多<img src="img/img01.jpg"/> </a></div>
+            </div>
+            <div class="main">
+                <div class="box1"></div>
+                <p>奔跑在绿茵场，防滑球鞋脚上穿</p>
+                <p>不少电视前的球迷 ,都希望自己可以亲自站在绿茵场上踢两脚。但<br/>是没有专业的球鞋可是十分危险的，球场上那...</p>
+                <ul class="shoes">
+                    <li class="box01"></li>
+                    <li class="box02"></li>
+                    <li class="box03"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="header">
+                <div class="h-l">
+                    <span></span>
+                    <p>必抢清单</p>
+                </div>
+                <div class="h-r"><a href="#">更多<img src="img/img01.jpg"/> </a></div>
+            </div>
+            <div class="main">
+                <div class="box2"></div>
+                <p>便携摄影无人机，代替眼睛看世界</p>
+                <p>世界很大你想出去看看，那么有一样东西就不可不带，那<br/>就是无人机。灵活小巧的机身可长时间在空中停留，智...</p>
+                <ul class="img-box">
+                    <li class="box04"></li>
+                    <li class="box05"></li>
+                    <li class="box06"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="header">
+                <div class="h-l">
+                    <span></span>
+                    <p>必抢清单</p>
+                </div>
+                <div class="h-r"><a href="#">更多<img src="img/img01.jpg"/> </a></div>
+            </div>
+            <div class="main">
+                <div class="box3"></div>
+                <p>奔跑在绿茵场，防滑球鞋脚上穿</p>
+                <p>不少电视前的球迷 ,都希望自己可以亲自站在绿茵场上踢两脚。但<br/>是没有专业的球鞋可是十分危险的，球场上那...</p>
+                <ul class="shoes">
+                    <li class="box07"></li>
+                    <li class="box08"></li>
+                    <li class="box09"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/swiper2.0.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
